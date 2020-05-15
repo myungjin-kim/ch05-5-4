@@ -70,10 +70,10 @@ element evalPostfix(const char* exp) {
 void main(void) {
     int result;
     const char* express = "35*62/-";
-    printf("ÈÄÀ§ Ç¥±â½Ä : %s", express);
+    printf("í›„ìœ„ í‘œê¸°ì‹ : %s", express);
 
     result = evalPostfix(express);
-    printf("\n\n¿¬»ê °á°ú => %d", result);
+    printf("\n\nì—°ì‚° ê²°ê³¼ => %d", result);
 
     getchar();
 }
